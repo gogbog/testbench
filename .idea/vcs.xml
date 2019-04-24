@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../packages/charlotte/administration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/caffeinated/modules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/charlotte/administration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/dimsav/laravel-translatable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/gogbog/coingeckoapi" vcs="Git" />
+  </component>
+</project>
