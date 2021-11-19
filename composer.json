@@ -9,10 +9,9 @@
     "license": "MIT",
     "require": {
         "php": "^7.1.3",
-        "charlotte/administration": "9999999-dev",
+        "charlotte/administration": "dev-main",
         "fideloper/proxy": "^4.0",
-        "gogbog/coingeckoapi": "dev-master",
-        "laravel/framework": "5.8.*",
+        "laravel/framework": "^6.2",
         "laravel/tinker": "^1.0"
     },
     "require-dev": {
@@ -47,22 +46,22 @@
             "Tests\\": "tests/"
         }
     },
-    "repositories": {
-        "administration": {
+    "repositories": [
+        {
             "type": "path",
             "url": "../../packages/charlotte/administration",
             "options": {
                 "symlink": true
             }
         },
-        "coingeckoapi": {
+        {
             "type": "path",
             "url": "../../packages/gogbog/coingeckoapi",
             "options": {
                 "symlink": true
             }
         }
-    },
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {

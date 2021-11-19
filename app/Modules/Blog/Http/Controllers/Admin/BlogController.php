@@ -116,7 +116,6 @@ class BlogController extends BaseAdministrationController {
     }
 
     public function store(Request $request) {
-        dd($request->all());
         $blog = new Blog();
 
         $blog->fill($request->all());

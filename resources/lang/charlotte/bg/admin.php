@@ -10,7 +10,6 @@ return [
     'auth_failed' => 'Грешка при заверка! Моля опитайте пак.',
 
     //LAYOUT
-    'ap' => 'АП',
     'admin_panel' => 'Админ Панел',
     'menu' => 'Меню',
     'dashboard' => 'Начало',
@@ -23,17 +22,17 @@ return [
     'change_theme' => 'Смяна на тема',
     'light' => 'Светла',
     'dark' => 'Тъмна',
-    'edit_profile' => 'Настройки на профила',
+    'go_to_website' => 'Към Сайта',
+    'edit_profile' => 'Редактиране на профил',
     'logout' => 'Изход',
     'schedule' => 'График',
     'error' => 'Грешка',
     'success' => 'Успех',
 
     //DASHBOARD
-    'monthly_log' => 'Месечен Лог',
     'see_details' => 'Виж Повече',
     'administrators' => 'Администратори',
-    'settings_menu' => 'Глобални настройки',
+    'settings_menu' => 'Настройки',
 
     //EXAMPLE MODULES
     'add' => 'Добави',
@@ -65,6 +64,7 @@ return [
     'restore' => 'Възстановяване?',
     'yes_restore' => 'Възстанови',
     'restored' => 'Възстановено!',
+    'media-manager' => 'Снимки',
 
     //MEDIA MANAGER
     'media_default' => 'Пренесете файловете си тук или кликнете и изберете',
@@ -76,12 +76,11 @@ return [
     'settings_updated' => 'Успешно променихте настройките',
 
     //LANGUAGES
-    'en' => 'Английски',
+    'en' => 'English',
     'bg' => 'Български',
-    'fr' => 'Френски',
-
+    'fr' => 'Français',
 
     //GENERAL
-    'website_name' => 'Име на сайта'
+    'website_name' => 'Име на сайта',
 
 ];

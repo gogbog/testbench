@@ -20,7 +20,7 @@ class  Administration implements Structure {
         $menu->get('blog')->add('Add', ['url' => \Charlotte\Administration\Helpers\Administration::route('blog.create')]);
         $menu->get('blog')->add('View all', ['url' => \Charlotte\Administration\Helpers\Administration::route('blog.index')]);
 
-        $menu->add("Users", ['url' => \Charlotte\Administration\Helpers\Administration::route('blog.edit', ['id' => 3]), 'icon' => 'ti-user']);
+//        $menu->add("Users", ['url' => \Charlotte\Administration\Helpers\Administration::route('blog.edit', ['id' => 3]), 'icon' => 'ti-user']);
 
     }
 
